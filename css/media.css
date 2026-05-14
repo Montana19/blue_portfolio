@@ -3,3 +3,41 @@
     scroll-behavior: smooth;
   }
 }
+
+@media screen and (max-width: 1140px) {
+  .header__flex {
+    flex-direction: column;
+    margin-top: 82px;
+  }
+  .header__notebook {
+    padding: 0;
+  }
+  .header__right-col {
+    text-align: center;
+  }
+  .header__button {
+    margin: 0 auto 82px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header__top-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header__menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .header__flex {
+    margin-top: 62px;
+  }
+
+  .header__h1 {
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+}
