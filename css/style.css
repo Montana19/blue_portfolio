@@ -1,0 +1,102 @@
+:root {
+  --silver: #EEEFF1;
+  --bgcolor: #f9f9f9;
+  --accent: #34547A;
+  --grey: #727272;
+}
+
+/* Базовые настройки сайта */
+
+body {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  color: black;
+}
+
+.container {
+  max-width: 1179px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  background-color: var(--accent);
+  width: 225px;
+  height: 65px;
+  letter-spacing: 1.2px;
+}
+
+/* Hero-section */
+
+.header {
+  height: 692px;
+  background-color: var(--silver);
+}
+
+.header__top-header {
+  padding: 52px 31px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 85px;
+  height: 60px;
+}
+
+.header__menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 42px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26.25px;
+    letter-spacing: 1.6px; 
+
+  & li:hover {
+    color: var(--accent);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.5s;
+  }
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 122px 0 142px;
+}
+
+.header__notebook {
+  padding-top: 37px;
+  padding-left: 101px;
+}
+
+.header__right-col {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.header__h1 {
+  height: 45px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78.75px;
+  margin-bottom: 66px;
+}
+
+.header__p {
+  width: 540px;
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 26.25px;
+  margin-bottom: 54px;
+}
