@@ -3,6 +3,7 @@
   --bgcolor: #f9f9f9;
   --accent: #34547A;
   --grey: #727272;
+  --containwidth: calc(vw/5);
 }
 
 /* Базовые настройки сайта */
@@ -135,6 +136,7 @@ body {
   min-height: 250px;
   background-color: var(--accent);
 }
+
 .projects__flex {
   display: flex;
   place-content: center;
@@ -142,19 +144,60 @@ body {
   flex-wrap: wrap;
   min-height: 250px;
 }
+
 .projects__item {
   display: flex;
   gap: 20px;
 }
-.projects__icon {
-}
-.projects__desc {
-}
+
 .projects__h3 {
   color: #fff;
 }
+
 .projects__p {
   color: #fff;
 }
 
+/* Skills */
+
+.skills {
+  padding: 102px 0;
+}
+
+.skills__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__h2 {
+  padding-top: 102px;
+  margin-bottom: 38px;
+}
+
+.skills__stats {
+  max-width: 445px;
+  width: 100%;
+}
+
+.skills__avatar {
+  max-width: 555px;
+  width: 100%;
+}
+
+progress {
+  appearance: none; 
+  -webkit-appearance: none;
+  height: 4px;
+  max-width: 445px;
+  width: 100%;
+  margin: 13px 0 25px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #c4c4c4;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--accent);
+}
 
