@@ -42,6 +42,11 @@ body {
   font-weight: 500;
 }
 
+.h3-text {
+  font-size: 21px;
+  font-weight: 500;
+}
+
 /* Hero-section */
 
 .header {
@@ -112,7 +117,7 @@ body {
 
 .aboutme {
   text-align: center;
-  padding: 119px 0 100px;
+  padding: 119px 0 94px;
 }
 
 .aboutme__h2 {
@@ -123,4 +128,33 @@ body {
   max-width: 540px;
   margin: 0 auto;
 }
+
+/* Projects */
+
+.projects {
+  min-height: 250px;
+  background-color: var(--accent);
+}
+.projects__flex {
+  display: flex;
+  place-content: center;
+  gap: 49px;
+  flex-wrap: wrap;
+  min-height: 250px;
+}
+.projects__item {
+  display: flex;
+  gap: 20px;
+}
+.projects__icon {
+}
+.projects__desc {
+}
+.projects__h3 {
+  color: #fff;
+}
+.projects__p {
+  color: #fff;
+}
+
 
