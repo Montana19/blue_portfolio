@@ -1,7 +1,7 @@
 :root {
-  --silver: #EEEFF1;
+  --silver: #eeeff1;
   --bgcolor: #f9f9f9;
-  --accent: #34547A;
+  --accent: #34547a;
   --grey: #727272;
   --containwidth: calc(vw/5);
 }
@@ -68,13 +68,13 @@ body {
 }
 
 .header__menu ul {
-    list-style-type: none;
-    display: flex;
-    gap: 42px;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 26.25px;
-    letter-spacing: 1.6px; 
+  list-style-type: none;
+  display: flex;
+  gap: 42px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 26.25px;
+  letter-spacing: 1.6px;
 
   & li:hover {
     color: var(--accent);
@@ -185,7 +185,7 @@ body {
 }
 
 progress {
-  appearance: none; 
+  appearance: none;
   -webkit-appearance: none;
   height: 4px;
   max-width: 445px;
@@ -201,3 +201,44 @@ progress::-webkit-progress-value {
   background-color: var(--accent);
 }
 
+/* how-its-works block */
+
+.howitworks {
+  background-color: var(--silver);
+  padding: 96px 0 100px 0;
+}
+
+.howitworks__h2 {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.howitworks__p {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 49px;
+}
+
+.howitworks__play {
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+.howitworks__img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  height: 600px;
+  background-image: url("../img/video.png");
+  background-size: cover;
+
+  &:hover {
+    .howitworks__play {
+      opacity: 1;
+    }
+  }
+}
