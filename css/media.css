@@ -46,6 +46,10 @@
   .skills__h2 {
     text-align: center;
   }
+
+  .mozaic__item {
+    width: 33%;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -72,5 +76,9 @@
 
   .projects {
     padding: 50px 0;
+  }
+
+  .mozaic__item {
+    width: 50%;
   }
 }
