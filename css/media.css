@@ -82,3 +82,9 @@
     width: 50%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .footer__flex {
+    justify-content: center;
+  }
+}
