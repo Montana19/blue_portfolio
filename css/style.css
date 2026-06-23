@@ -352,7 +352,10 @@ progress::-webkit-progress-value {
   max-width: 255px;
   height: 50px;
   border: 0;
-  margin-right: 30px;
+  margin-right: 30px; 
+  color: var(--grey);
+  font-size: 14px;
+  padding-left: 20px;
 }
 
 .form__email {
@@ -360,6 +363,9 @@ progress::-webkit-progress-value {
   max-width: 255px;
   height: 50px;
   border: 0;
+  color: var(--grey);
+  font-size: 14px;
+  padding-left: 20px;
 }
 
 .form__text {
@@ -369,6 +375,9 @@ progress::-webkit-progress-value {
   grid-area: 2 / 1 / 2 / 3;
   max-width: 540px;
   height: 175px;
+  color: var(--grey);
+  font-size: 14px;
+  padding: 17px 20px;
 }
 
 .form__button {
@@ -376,7 +385,6 @@ progress::-webkit-progress-value {
   place-items: center;
   justify-self: center;
 }
-
 
 /* Footer */
 
