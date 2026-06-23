@@ -303,8 +303,6 @@ progress::-webkit-progress-value {
 
 /* Clients block */
 
-.clients {
-}
 
 .clients__flex {
   display: flex;
