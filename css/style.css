@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-  max-width: 1470px;
+  max-width: 1422px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -91,4 +91,64 @@ h4 {
 h5 {
   font-size: 24px;
   line-height: 34px;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px 0;
+}
+
+.top__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  background: var(#FFF);
+} 
+
+.top__nav {
+  display: flex;
+  list-style-type: none;
+  gap: 46px;
+}
+
+.top__nav li {
+    color: var(--Neutrals-900, #0D1525);
+    font-family: "Sequel Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 315;
+    line-height: 140%;
+}
+
+.top__buttons {
+  display: flex;
+  gap: 38px;
+}
+
+.top__link {
+    color: var(--Secondary-400, #1C404C);
+    text-align: center;
+    font-family: "Sequel Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 315;
+    line-height: 140%;
+    border-style: none;
+    background: none;
+}
+
+.accent__button {
+  color: var(--Base-White, #FFF);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  border-radius: 30px;
+  padding: 12px 20px;
+  border: 1px solid var(--BG-BG-1, #F2F5F7);
+  background: var(--Primary-500, #5ABEAF);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.01), 0 2px 2px 0 rgba(135, 80, 255, 0.06);
 }
